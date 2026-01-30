@@ -10,6 +10,6 @@ function getRandomHexColor() {
 
 button.addEventListener("click", () => {
   const newColor = getRandomHexColor();
-  body.style.backgroundColor = newColor; // змінюємо фон
-  colorSpan.textContent = newColor; // відображаємо колір у спані
+  body.style.backgroundColor = newColor;
+  colorSpan.textContent = newColor;
 });
